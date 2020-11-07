@@ -16,7 +16,7 @@ O seu schema de cliente deverá conter as seguintes propriedades:
 ```
 nome (String)
 email: (String)
-cpf: (Number)
+cpf: (String)
 dataNascimento: (String)
 estadoCivil: (String)
 telefone: (Number)

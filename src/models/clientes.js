@@ -6,7 +6,7 @@ const clientesSchema = new mongoose.Schema({
     cpf: { type: String, required: true },
     dataNascimento: { type: String },
     estadoCivil: { type: String },
-    telefone: { type: Number },
+    telefone: { type: String },
     comprou: { type: Boolean }
 }, {
     versionKey: false
